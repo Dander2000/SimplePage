@@ -79,9 +79,10 @@ jobs:
         working-directory: ./simple-page
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
+        
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./simple-page/out
 
   # Deployment job
   deploy:
