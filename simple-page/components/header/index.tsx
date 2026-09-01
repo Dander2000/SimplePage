@@ -1,5 +1,5 @@
 // import './index.css';
-import { Button } from '@/components/button';
+import { Button } from '@components/button';
 
 type User = {
   name: string;

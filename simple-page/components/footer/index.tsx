@@ -1,5 +1,4 @@
 "use client";
-// import './index.css';
 import { FooterNavi } from '@components/footerNavi';
 import { SocialLinks } from '@components/socialLinks';
 
